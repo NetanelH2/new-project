@@ -6,12 +6,12 @@ public class CreditCardTask {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int CardNumber = 12131415;
-        String Password = "credit";
+        int CardNumber = 12131415; // call the variable by this name: cardNumber
+        String Password = "credit"; // Please try not to call a variable with a capital letter on the start of the name.
 
         for (int attempts = 0; attempts < 5; attempts++) {
             System.out.print("Please enter your card number (8 digits): ");
-            int Number = scanner.nextInt();
+            int Number = scanner.nextInt(); // Please try not to call a variable with a capital letter on the start of the name.
             scanner.nextLine();
 
             System.out.print("Please enter your password: ");
